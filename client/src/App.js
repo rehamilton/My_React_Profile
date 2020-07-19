@@ -10,7 +10,7 @@ export default function App() {
   
   return (
     <Wrapper>
-      <Header>A Project</Header>
+      <Header>A Profile</Header>
     </Wrapper>
   );
 }
