@@ -1,21 +1,27 @@
 import React from "react";
-import "./style.css";
 
-function PortfolioItem() {
+
+
+function PortfolioItem(props) {
+
+    console.log("props" , props);
+    console.log(props.repo)
 
     return(
-        <div class="col-md-6 col-sm-12" id="word-guess">    
-            <a href="https://rehamilton.github.io/One-Fine-Day/" target="_blank">
-                <div class="portfolio-link">
+        <div className="col-md-6 col-sm-12" id="word-guess">    
+            <a href={props.repo.link} target="_blank">
+                <div className="portfolio-link">
                     <img 
-                        src="./Assets/One_Fine_Day.PNG"
-                        alt= "One Fine Day"
-                        class="img-fluid portfolio-img"                            
+                        src={props.repo.image}
+                        alt= {props.repo.name}
+                        className="img-fluid portfolio-img"                            
                     />
-                    <h4 class="link-text">One Fine Day</h4>
+                    <h4 className="link-text">{props.repo.name}</h4>
                 </div> 
             </a>                                                    
         </div>
     )
 
 }
+
+export default PortfolioItem

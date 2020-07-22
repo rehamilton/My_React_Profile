@@ -6,8 +6,8 @@ function ContactContainer() {
 
     return(
 
-        <div class="jumbotron contact" id="contact">
-            <div class="container contact-container">
+        <div className="jumbotron contact" id="contact">
+            <div className="container contact-container">
                 <About />
                 <ContactMe />
             </div>

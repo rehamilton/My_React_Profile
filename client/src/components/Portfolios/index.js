@@ -1,7 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
+import PortfolioItem from '../PortfolioItem'
+import repos from '../../repo'
 
 
-function Title(props) {
+function Portfolio(  ) {
+
+    const [repo, setRepo] = useState(repos)
+
+    console.log(repo);
+
+    
   return (
       <div>
         <div className="jumbotron portfolio" id="portfolio">
@@ -20,7 +28,12 @@ function Title(props) {
                                     <hr/>
                                 </div>
                             </div>
-                            
+                            {repo.map((repos) => (
+                                <PortfolioItem 
+                                key = {repos.name}
+                                repo = {repos}
+                                />
+                            ))}                            
                         </div>
             
                     </div>
@@ -32,4 +45,4 @@ function Title(props) {
   )
 }
 
-export default Title;
+export default Portfolio;

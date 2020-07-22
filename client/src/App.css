@@ -37,7 +37,7 @@ nav ul {
 
 /*set background images and style*/
 .main {
-  background-image: url(./Assets/PerthBoathouse.jpg);
+  background-image: url(/Assets/PerthBoathouse.jpg);
   background-size: cover;
   padding-bottom: 3rem;
   background-position: center;

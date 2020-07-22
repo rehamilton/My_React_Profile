@@ -3,12 +3,12 @@ import React from 'react'
 function Footer() {
 
     return (
-        <div class="footer">
-            <div class="footer-border bg-dark">
+        <div className="footer">
+            <div className="footer-border bg-dark">
 
             </div>
 
-            <div class="container">
+            <div className="container">
                                 
                 <span>&copy; Copyright</span>
                 
