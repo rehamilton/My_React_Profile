@@ -8,7 +8,7 @@ function PortfolioItem(props) {
     console.log(props.repo)
 
     return(
-        <div className="col-md-6 col-sm-12" id="word-guess">    
+        <div className="col-md-12 col-sm-12" align = "center">    
             <a href={props.repo.link} target="_blank">
                 <div className="portfolio-link">
                     <img 
