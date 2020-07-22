@@ -1,29 +1,70 @@
-# Create React Express App
+# My React Portfolio
+My React Portfolio
 
-## About This Boilerplate
+A directory of employees which can be searched.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Table of Contents
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+* [Criteria](#criteria)
 
-## Starting the app locally
+* [Heroku](#Heroku)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+* [Installation](#installation)
+
+* [Screenshots](#Screenshots)
+
+* [Questions](#questions)
+
+## Criteria
+
+
+* Updated portfolio featuring 6 total projects
+
+* Use React
+
+* A `Header` component that appears on multiple pages
+
+* A single `Project` component that will be used multiple times on a single page 
+
+* Navigation with React Router, dynamic rendering, or another third part router
+
+* A `Footer` component that appears on multiple pages
+
+* Update GitHub profile with pinned repositories featuring those same projects
+
+## Heroku
+
+The deployed app on Heroku can be found here:
+
+https://mybelovedmonstersprofile.herokuapp.com/
+
+## Installation
+
+To install necessary dependencies, run the following commands:
 
 ```
 npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
 
 ```
-npm start
-```
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## Screenshots
 
-## Deployment (Heroku)
+![./markdownAssets/Header.png](https://github.com/rehamilton/My_React_Portfolio/blob/master/markdownAssets/Header.PNG)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+![./markdownAssets/Portfolio.png](https://github.com/rehamilton/My_React_Portfolio/blob/master/markdownAssets/Portfolio.PNG)
+
+![./markdownAssets/About.png](https://github.com/rehamilton/My_React_Portfolio/blob/master/markdownAssets/About.PNG)
+
+
+## Questions
+
+If you have any questions about the repo or want to open an issue contact rehamilton on roz_e4@hotmail.com
+
+
+<img src="https://avatars1.githubusercontent.com/u/59821631?v=4" alt="avatar" style="border-radius: 16px" width="30" />
+
+
+
+![GitHub repo size](https://img.shields.io/github/repo-size/rehamilton/My_React_Portfolio)
+
+
