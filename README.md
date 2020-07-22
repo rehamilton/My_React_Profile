@@ -49,11 +49,11 @@ npm install
 
 ## Screenshots
 
-![./markdownAssets/Header.png](https://github.com/rehamilton/My_React_Portfolio/blob/master/markdownAssets/Header.PNG)
+![./markdownAssets/Header.png](https://github.com/rehamilton/My_React_Profile/blob/master/markdownAssets/Header.PNG)
 
-![./markdownAssets/Portfolio.png](https://github.com/rehamilton/My_React_Portfolio/blob/master/markdownAssets/Portfolio.PNG)
+![./markdownAssets/Portfolio.png](https://github.com/rehamilton/My_React_Profile/blob/master/markdownAssets/Portfolio.PNG)
 
-![./markdownAssets/About.png](https://github.com/rehamilton/My_React_Portfolio/blob/master/markdownAssets/About.PNG)
+![./markdownAssets/About.png](https://github.com/rehamilton/My_React_Profile/blob/master/markdownAssets/About.PNG)
 
 
 ## Questions
