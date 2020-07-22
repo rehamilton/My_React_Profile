@@ -1,11 +1,17 @@
 import React from "react";
-import "./style.css";
+import Jumbotron from 'react-bootstrap/Jumbotron'
+
 
 function Title(props) {
   return (
-  <div className= "header">
-    <h1 className="title">{props.children}</h1>
-  </div>
+    <Jumbotron className="main">
+    
+      <h1 className="text-center">ROSELYN HAMILTON</h1>
+      <h2 className="text-center">
+          FULL-STACK CODER
+      </h2>
+
+    </Jumbotron>
   )
 }
 
